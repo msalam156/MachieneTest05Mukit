@@ -1,0 +1,16 @@
+<div class="mianContainer border ">
+    <div class=" container ">
+        <div class=" loginFields">
+            <h1 class="textAlignCenter">Login</h1>
+            <form #login  = "ngForm" (ngSubmit)="getData(login.value)">
+                <label for="usernaem">UserName</label><br>
+                <input ngModel class="loginFieldsinput" type="text" name="username" placeholder="UserName"><br>
+                <label for="password">Password</label><br>
+                <input ngModel class="loginFieldsinput" type="password" name="password" placeholder="Password">
+                <br>
+                <button  class="loginFieldsinput btn-primary">Login</button><br>
+                <input type="checkbox" name="remember" id="">remember Me?
+            </form>
+        </div>
+    </div>
+</div>

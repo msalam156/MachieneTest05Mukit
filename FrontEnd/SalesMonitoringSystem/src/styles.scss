@@ -1,0 +1,31 @@
+/* You can add global styles to this file, and also import other style files */
+.mianContainer{
+   
+    height: 100vh;
+    background-image: linear-gradient(107deg,#1c094d, #ea3159);
+   
+}
+.textAlignCenter{
+    text-align: center;
+}
+.alignItemCenter{
+    align-items: center;
+}
+.loginFields{
+    width: 50%;
+    margin: auto;
+    padding: 3%;
+    
+}
+.loginFieldsinput {
+    width: 100%;
+    margin-top: 1vh;
+    padding: 1vh;
+    border-radius: 2vh;
+}
+.container{
+    margin-top: 10%;
+    padding: 2vh;
+    background-image: linear-gradient(330deg,#c84737, #ffe13e);
+    box-shadow: -3px 4px 11px 4px #34343478;
+}
